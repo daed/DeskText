@@ -1,0 +1,4 @@
+
+
+class SaneConf():
+    debug = True
