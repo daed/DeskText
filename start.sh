@@ -8,6 +8,7 @@
 #
 
 DISTRO=`uname -a`
+#TESTNAMES='testConfigParser.py testExterns.py'
 
 echo "Starting bgInfosane"
 if [[ $DISTRO == *Darwin* ]]; then
@@ -16,9 +17,15 @@ if [[ $DISTRO == *Darwin* ]]; then
     if [ $? -eq 0 ]; then
         # do darwin stuff here
         echo "I do osx stuff now"
-        echo `pwd`
         export PYTHONPATH="src/common:src/osx"
-        python src/test/testExterns.py
+        echo "Running tests..."
+        python src/test/tests.py
+        #echo "------------------------------------"
+        #for test in $TESTNAMES; do
+        #    python src/test/$test
+        #    
+        #    echo "------------------------------------"
+        #done
     else
         exit 1
     fi

@@ -1,4 +1,5 @@
+# happy little defaults
 
-
-class SaneConf():
-    debug = True
+debug = True
+timer = 60
+temp = "$HOME/.bginfo"

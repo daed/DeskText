@@ -1,6 +1,10 @@
-from saneConf import SaneConf
+import saneConf
+
+class baseClass:
+    def __init__(self):
+        pass
 
 def dprint(text):
-    if SaneConf.debug:
+    if saneConf.debug:
         print(text)
     return
