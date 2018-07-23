@@ -1,4 +1,5 @@
-#
+# 
+#  We check for prereqs before trying and failing.
 #
 # Need:
 # - brew install wallpaper

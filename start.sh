@@ -17,9 +17,10 @@ if [[ $DISTRO == *Darwin* ]]; then
     if [ $? -eq 0 ]; then
         # do darwin stuff here
         echo "I do osx stuff now"
-        export PYTHONPATH="src/common:src/osx"
+        export PYTHONPATH="src/common:src/osx:src"
         echo "Running tests..."
         python src/test/tests.py
+        python src/bgInfosane.py
         #echo "------------------------------------"
         #for test in $TESTNAMES; do
         #    python src/test/$test

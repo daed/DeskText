@@ -1,3 +1,10 @@
+'''
+    base.py
+
+Basic classes and functions that should be available to anything.
+
+'''
+
 import saneConf
 
 class baseClass:

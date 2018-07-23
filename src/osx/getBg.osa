@@ -1,3 +1,9 @@
+(*
+    getBg.osa
+
+Script that gets the path+filename of the current background and prints to stdout.
+
+*)
 tell application "Finder"
 set theDesktopPic to desktop picture as alias
 set theName to posix path of theDesktopPic

@@ -1,4 +1,18 @@
-#!/usr/bin/env python
+'''
+    configParser.py
+
+A tool to parse BGINFO4X style config files.
+
+Usage: ConfigParser(configFilePath).get()
+
+Populates the 'globals' in saneConf.
+Reads the filename specifed and attempts to parse it.
+
+If successful:
+returns an instance of ruleConf
+
+'''
+
 from base import baseClass, dprint
 from ruleConf import Config, ConfigRule
 import saneConf

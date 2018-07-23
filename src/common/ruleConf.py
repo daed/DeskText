@@ -1,3 +1,16 @@
+'''
+    ruleConf.py
+
+Config()
+ \\ header - String
+ \\ rules  - List of ConfigRule()
+
+ConfigRule()
+ \\ name   - String
+ \\ rule   - String
+
+'''
+
 from base import baseClass, dprint
 
 class ConfigRule(baseClass):
