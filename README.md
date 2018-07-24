@@ -7,3 +7,10 @@ The bgInfo utility is a handy tool for administrators to be able to display usef
 
 The aim of this utility is to provide similar functionality to those tools, while being maintainable.
 
+TODO:
+[ ] linux version
+[ ] windows version
+[ ] support image placement
+[ ] alarms section
+[ ] font selection
+[ ] server/client model
